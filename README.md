@@ -24,7 +24,9 @@ The project is split into two distinct folders:
 
 tiya-golf-club/
 │
+
 ├── server/                 # THE BACKEND
+
 │   ├── models/             # Database Schemas
 │   │   ├── Event.js        # Schema for Golf Events
 │   │   └── Member.js       # Schema for Membership Applications
@@ -32,7 +34,9 @@ tiya-golf-club/
 │   ├── .env                # Config (Mongo URI)
 │   └── package.json
 │
+
 └── client/                 # THE FRONTEND
+
     ├── public/             # Static Assets (Images, CSS, JS from template)
     ├── src/
     │   ├── components/     # Reusable UI parts
